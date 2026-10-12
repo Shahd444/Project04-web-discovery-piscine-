@@ -10,7 +10,7 @@ html {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4e8e8;
+    background-color: #ffffff;
     color: #130909;
     line-height: 1.6;
 }
@@ -65,7 +65,7 @@ button:hover {
 
 #home {
     text-align: center;
-    padding: 80px 20px;
+    padding: 80px 20px 20px;
 }
 
 #home h1 {
@@ -108,7 +108,7 @@ button:hover {
 }
 
 #skills li {
-    background-color: #e7aeec;
+    background-color: #f7e1f9;
     padding: 12px 16px;
     border-radius: 8px;
 }
@@ -127,7 +127,7 @@ button:hover {
 }
 
 #projects article { 
-    background-color: #e7aeec; 
+    background-color: #f7e1f9; 
     padding: 20px; 
     border-radius: 8px; 
     flex: 1 1 250px; 
@@ -151,7 +151,7 @@ button:hover {
 }
 
 #hobbies li { 
-    background-color: #e7aeec; 
+    background-color: #f7e1f9; 
     padding: 12px 16px; 
     border-radius: 8px; 
 }
