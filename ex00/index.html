@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahd Portfolio</title>
+    <!-- defer:execute the script after the html is parsed -->
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Shahd</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-button" type="button">Change Theme</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Shahd's Portfolio</h1>
+            <p>Software Engineering Student</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="assets/profile.jpg.jpeg" alt="Shahd's Profile">
+            <p>My name is Shahd, I'm a software engineering student at 42 Amman, currently exploring cybersecurity and web development.
+                I enjoy solving problems, learning new technologies, and improving my programming skills.
+                I'm always looking for opportunities to learn, experiment, and challenge myself.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: C, C++, TypeScript, JavaScript</li>
+                <li>Web Development: HTML, CSS</li>
+                <li>Tools: VS Code, Git</li>
+                <li>Other: Problem Solving, Critical Thinking, Peer Learning</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>project00: Linux & Git</h3>
+                <p>Practiced Linux command-line basics, file management, and shell scripting.
+                    Learned Git fundamentals, including repositories, commits, version control, and working with GitHub.</p>
+            </article>
+
+            <article>
+                <h3>project01: HTML</h3>
+                <p>Learned how to structure web pages using HTML. Practiced creating elements, organizing content, and 
+                    building the foundation of a website.</p>
+            </article>
+
+            <article>
+                <h3>project02: CSS</h3>
+                <p>Learned how to style web pages using CSS. Practiced colors, spacing, positioning, Flexbox layouts, and
+                    creating shapes to make pages more visually appealing.</p>
+            </article>
+
+            <article>
+                <h3>project03: JavaScript</h3>
+                <p>Learned JavaScript fundamentals, including variables, data types, functions, and event handling.
+                    Practiced using the DOM to select and update HTML elements and make web pages interactive.</p>
+            </article>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Drawing</li>
+                <li>Gaming</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+
+            <p>Email: <a href="mailto:shahd.shawish@gmail.com">shahd.shawish@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Shahd. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
