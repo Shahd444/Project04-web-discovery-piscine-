@@ -44,6 +44,7 @@ nav a {
     color: #160f0f;
 }
 
+/*pseudo-class*/
 nav a:hover {
     color: #b848c2;
 }
@@ -67,7 +68,7 @@ button:hover {
     text-align: center;
     padding: 80px 20px 20px;
 }
-
+/*based on the root element size*/
 #home h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -121,11 +122,11 @@ button:hover {
     justify-content: center; 
     gap: 20px; 
 }
-
+/*so it isn't beside of the articles*/
 #projects h2 { 
-    width: 100%; 
+    width: 100%;
 }
-
+/*flex: 1 1 250px: grow, shrink, initial size inside a flex container*/
 #projects article { 
     background-color: #f7e1f9; 
     padding: 20px; 
@@ -163,29 +164,29 @@ button:hover {
     flex-direction: column;
     gap: 10px;
     max-width: 500px; 
-    margin: 0 auto 25px; 
+    margin: 0 auto 25px;
 } 
 
-#contact input, #contact textarea { 
+#contact input, #contact textarea {
     width: 100%;
-    padding: 12px; 
-    border: 1px solid black; 
-    border-radius: 6px; 
-    background-color: white; 
-    color: black; 
-    font: inherit; 
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    font: inherit;
 }
 
-#contact textarea { 
-    min-height: 120px; 
-    resize: vertical; 
+#contact textarea {
+    min-height: 120px;
+    resize: vertical;
 }
 
-#contact form button { 
-    align-self: flex-start; 
+#contact form button {
+    align-self: flex-start;
 }
 
-#contact > p { 
+#contact p { 
     text-align: center; 
 }
 
@@ -204,6 +205,7 @@ footer {
     nav { justify-content: center; gap: 10px; }
     #home h1 { font-size: 2rem; }
     section { padding: 30px 15px; }
+    /*each card in one row*/
     #projects article { flex-basis: 100%; }
     #contact form button { align-self: stretch; }
 }
