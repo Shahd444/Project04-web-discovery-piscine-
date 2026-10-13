@@ -39,7 +39,8 @@ The page contains all required portfolio sections:
 
 ## Responsive design
 
-The layout uses CSS Flexbox for the navigation, skills, hobbies, and project
-cards. A media query at `max-width: 600px` wraps navigation links, changes
-spacing and heading size, stacks project cards, keeps form controls within the
-viewport, and makes the contact button easy to tap on mobile devices.
+The layout uses CSS Grid for the Skills section and CSS Flexbox for the
+navigation, hobbies, and project cards. A media query at `max-width: 600px`
+wraps navigation links, changes spacing and heading size, stacks project
+cards, keeps form controls within the viewport, and makes the contact button
+easy to tap on mobile devices.
